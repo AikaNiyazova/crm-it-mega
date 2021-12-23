@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Mentor adding page</title>
+</head>
+<body>
+    <h3>Please insert mentor's data</h3>
+
+    <form action="#" th:action="@{'/'}" method="post">
+        <label for="firstname">First name</label>
+        <input id="firstname" type="text" name="firstName">
+        <p/>
+        <label for="lastname">Last name</label>
+        <input id="lastname" type="text" name="lastName">
+        <p/>
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email">
+        <p/>
+        <label for="phonenumber">Phone number</label>
+        <input id="phonenumber" type="text" name="phoneNumber">
+        <p/>
+        <label for="dob">Date of birth</label>
+        <input id="dob" type="date" name="dob">
+        <p/>
+        <label for="salary">Salary</label>
+        <input id="salary" type="number" name="salary">
+        <p/>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

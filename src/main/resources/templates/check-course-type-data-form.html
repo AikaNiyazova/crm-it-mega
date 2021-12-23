@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Check Data</title>
+</head>
+<body>
+    ID: <p th:text="${id}"></p> <!--вытаскиваем данные, которые передавали в model.addAttribute в Controller, по ключу{id}-->
+    Date created: <p th:text="${dateCreated}"></p>
+    Type name: <p th:text="${typeName}"></p>
+    Classes per month: <p th:text="${classesPerMonth}"></p>
+    Duration in month: <p th:text="${durationInMonth}"></p>
+    Duration of one lesson: <p th:text="${durationOfOneLesson}"/>
+</body>
+</html>
